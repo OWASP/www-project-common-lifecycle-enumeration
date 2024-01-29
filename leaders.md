@@ -1,4 +1,3 @@
 ### Leaders
-* [Leader Name](mailto:leader.email@owasp.org)
-* [Leader Name](mailto:leader.email@owasp.org)
-* [Leader Name](mailto:leader.email@owasp.org)
+* [Steve Springett](mailto:steve.springett@owasp.org)
+* [Benji Visser](mailto:benji.visser@owasp.org)
