@@ -2,21 +2,30 @@
 
 layout: col-sidebar
 title: OWASP Common Lifecycle Enumeration
-tags: example-tag
+tags: cle sbom supply chain standard eol eos lifecycle
 level: 2
-type: 
-pitch: A very brief, one-line description of your project
+type: documentation
+pitch: The Common Lifecycle Enumeration (CLE) is an open standard supporting component aliasing, component lifecycle changes such as end-of-life and end-of-support, and provenance chaining over time.
 
 ---
 
-This is an example of a Project or Chapter Page.  Please change these items to indicate the actual information you wish to present.  In addition to this information, the 'front-matter' above this text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
+The Common Lifecycle Enumeration (CLE) is an open standard supporting component aliasing, component lifecycle changes such as end-of-life and end-of-support, and provenance chaining over time.
 
-layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+## Introduction
 
-title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
+Despite years of development in standards for communicating software component vulnerabilities, there is a notable lack of standardized communication for lifecycle events of software or hardware components. Lifecycle events include instances such as the cessation of active development, discontinuation of sales, or the end of security updates. Crucially, events altering the software identifier, as elaborated in the Component Aliasing section, are also significant.
 
-tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
+The absence of a standardized way of communicating lifecycle events for software or hardware components has significant implications, particularly in regards to security and maintenance. For example, once a component reaches its end-of-life, it no longer receives security updates. Determining when components reach such milestones remains challenging, potentially exposing security vulnerabilities.
 
-level: For projects, this is your project level (2 - Incubator, 3 - Lab, 3.5 - Production, 4 - Flagship)
+## Work in Progress
 
-type: code, documentation, or other
+The CLE project is collecting [use cases](https://docs.google.com/document/d/1sRMS1IX0r7ZkYthDR0VY1bYyvp_6K_xw4sR1vZwla8E/edit) 
+and will be working with the community to create a specification that can achieve said use cases. Conversations have 
+historically taken place in the OWASP CycloneDX Slack workspace, however, a dedicated [Slack channel](https://owasp.slack.com/archives/C06GUKY03NC) 
+is now available on the OWASP Slack workspace.
+
+## Get Involved
+
+Like all OWASP projects, CLE is open for everyone to participate in. You do not need to be an OWASP member to make a 
+difference. If you'd like to get involved, review and optionally comment on the use cases document and introduce yourself
+and what you'd like to work on in the Slack channel. Together, we can make CLE a reality.
