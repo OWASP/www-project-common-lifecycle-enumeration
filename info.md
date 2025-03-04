@@ -15,8 +15,9 @@
 ### Project Resources
 
 * [Use Cases](https://docs.google.com/document/d/1sRMS1IX0r7ZkYthDR0VY1bYyvp_6K_xw4sR1vZwla8E/edit)
-* [GitHub](https://github.com/Common-Lifecycle-Enumeration)
+* [GitHub](https://github.com/Ecma-TC54/ECMA-xxx-CLE)
 * [Slack](https://owasp.slack.com/archives/C06GUKY03NC) - [invite](https://owasp.org/slack)
+* [Ecma TC54](https://tc54.org/cle/)
 
 ### Licensing
 
