@@ -1,0 +1,34 @@
+audience:
+  - builder
+  - defender
+leaders:
+  - name: Steve Springett
+    email: steve.springett@owasp.org
+    github: stevespringett
+  - name: Benji Visser
+    email: benji.visser@owasp.org
+    github: noqcks
+level: 2
+name: OWASP Common Lifecycle Enumeration
+pitch: The Common Lifecycle Enumeration (CLE) is an open standard supporting component aliasing, component lifecycle changes such as end-of-life and end-of-support,
+  and provenance chaining over time.
+repositories:
+  - name: www-project-common-lifecycle-enumeration
+    url: https://github.com/OWASP/www-project-common-lifecycle-enumeration
+    description: OWASP Foundation Web Repository
+  - name: specification
+    url: https://github.com/Common-Lifecycle-Enumeration/specification
+  - name: ECMA-xxx-CLE
+    url: https://github.com/Ecma-TC54/ECMA-xxx-CLE
+    description: This repository will be renamed once an ECMA identifier is assigned to the standard.
+tags:
+  - cle
+  - sbom
+  - supply
+  - chain
+  - standard
+  - eol
+  - eos
+  - lifecycle
+type: documentation
+website: https://owasp.org/www-project-common-lifecycle-enumeration
